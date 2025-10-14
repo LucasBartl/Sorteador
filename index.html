@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUMBERS</title>
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <img src="assets/icons/logo.svg" alt="logo do site">
+            <h1>NUMBERS</h1>
+        </header>
+        <section>
+            <div id="primary">
+                <h3>Online - gratuito</h3>
+                <div id="message">
+                    <p> Sorteador
+                        <br>de número
+                    </p>
+
+                </div>
+                <div class="box">
+                    <img src="assets/icons/person.svg" alt="icone de pessoa pensando">
+                    <div><span>Como funciona o sorteador de números?</span>
+                        <p>O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo
+                            especificado pelo usuário.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="assets/icons/person.svg" alt="icone de pessoa pensando">
+                    <div>
+                        <span>Posso escolher o intervalo dos números?</span>
+                        <p>Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="secondary">
+                <form action="">
+
+                    <h3>Quero sortear:</h3>
+
+                    <p>
+                        defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela.
+                        É
+                        rápido e fácil!
+                    </p>
+
+                    <div class="jogo ">
+
+                        <div class="box-number">
+
+                            <label for="numeros">NÚMEROS</label>
+                            <input type="text" name="numeros" id="numeros">
+
+                        </div>
+
+                        <div class="box-number">
+
+                            <label for="meio">DE</label>
+                            <input type="text" id="meio" name="meio">
+
+                        </div>
+                        <div class="box-number">
+
+                            <label for="final">DE</label>
+                            <input type="text" name="final" id="final">
+
+                        </div>
+
+                    </div>
+
+                    <div id="style">
+
+                        <div>
+                            <input type="checkbox" name="check" id="check">
+
+                            <div id="icone">
+
+                                <img src="" alt="">
+
+                            </div>
+
+                        </div>
+
+                        <label for="check">Não repetir número</label>
+                    </div>
+                    <div id="btn-sortear">
+                        <button type="submit" class="btn" name="sortear">
+                            Sortear
+                            <img src="./assets/icons/seta.svg" alt="">
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+<script src="script.js"></script>
+</body>
+
+</html>

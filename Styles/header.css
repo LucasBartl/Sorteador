@@ -1,0 +1,13 @@
+header{
+    
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 5rem;
+    h1{
+        font-family: var(--ff-roboto-flex);
+        color: var(--content-primary);
+        
+    }
+
+
+}
