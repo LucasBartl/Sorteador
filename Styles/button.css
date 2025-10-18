@@ -1,8 +1,9 @@
 #btn-sortear {
     text-align: center;
     display: block;
-
+    
     .btn {
+        cursor: pointer;
         background-color: var(--background-tertiary);
         justify-content: center;
         align-items: center;
